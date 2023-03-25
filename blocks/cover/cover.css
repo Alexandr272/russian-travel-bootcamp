@@ -1,0 +1,23 @@
+.cover{
+    margin: 0 auto;
+    max-width: 1184px;
+    display: grid;
+    gap: 32px;
+}
+.cover::before{
+    content: ' ';
+    background-color: #2A2C2F;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    opacity: 30%;
+}
+.cover:hover::before{
+    opacity: 70%;
+    transition: 0.7s;
+}
+@media screen and (max-width:320px) {
+    .cover{
+        gap: 10px;
+        padding-top: 10px;
+    }
+}

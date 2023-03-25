@@ -1,0 +1,10 @@
+.place__text-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+@media screen and (max-width: 320px) {
+    .place__text-wrapper{
+        margin: 35px 16px 0;
+    }
+}
