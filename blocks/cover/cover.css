@@ -1,19 +1,14 @@
 .cover{
     margin: 0 auto;
+    background-image: url('../../image/cover__background/cover__background.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 1184px;
-    display: grid;
-    gap: 32px;
-}
-.cover::before{
-    content: ' ';
-    background-color: #2A2C2F;
-    grid-row: 1/3;
-    grid-column: 1/2;
-    opacity: 30%;
-}
-.cover:hover::before{
-    opacity: 70%;
-    transition: 0.7s;
+    height: 740px;
+    object-fit: cover;
+    position: relative;
 }
 @media screen and (max-width:320px) {
     .cover{

@@ -1,9 +1,0 @@
-.photo{
-    margin: 0 auto;
-    max-width: 1184px;
-}
-@media screen and (max-width: 320px) {
-    .photo{
-        padding: 10px 0;
-    }
-}
