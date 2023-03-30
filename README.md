@@ -10,5 +10,5 @@
 * Файловая структура проекта по правилам Nested БЭМ
 
 **Ссылка на сайт:**
-https://github.com/Alexandr272/russian-travel-bootcamp
+https://alexandr272.github.io/russian-travel-bootcamp/
 
