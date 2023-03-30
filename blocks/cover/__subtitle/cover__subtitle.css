@@ -13,6 +13,12 @@
     justify-self: center;
     text-align: center; */
 }
+@media screen and (max-width: 530px) {
+    .cover__subtitle{
+        font-size: 3.40vw;
+        line-height: 4.15vw;
+    }
+}
 @media screen and (max-width: 320px) {
     .cover__subtitle{
         font-size: 14px;

@@ -14,12 +14,17 @@
 }
 @media screen and (max-width: 768px) {
     .place{
-        grid-template-columns: 43vw 44vw;
+        grid-template-columns: 44vw 44vw;
         column-gap: 28px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .place{
+        grid-template-columns: auto;
     }
 }
 @media screen and (max-width: 320px) {
     .place{
-        grid-template-columns: 320px;
+        grid-template-columns: 1fr;
     }
 }
