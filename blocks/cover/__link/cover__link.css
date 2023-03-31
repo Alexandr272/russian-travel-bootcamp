@@ -23,5 +23,5 @@
     z-index: -1;
 }
 .cover__link:hover::before{
-    opacity: 0.8;
+    opacity: 80%;
 }

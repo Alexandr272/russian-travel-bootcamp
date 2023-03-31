@@ -22,7 +22,7 @@
 @media screen and (max-width: 700px) {
     .photo-grid__list{
         grid-template-columns: 1fr;
-        gap: 9px;
+        gap: 12px;
     }
 }
 @media screen and (max-width: 320px) {
